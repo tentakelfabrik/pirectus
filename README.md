@@ -1,13 +1,11 @@
 # Pirectus - a small Client for Directus 9
 
-This Client Supports Directus 9, it is written in PHP and use Guzzle for handling requests.
-
-In this Version
+This Version is in a early Stage and only supports get, post, patch for Items. Authentification is only possible with token.
 
 ## Installation
 
 ```php
-
+composer require tentakelfabrik/pirectus
 ```
 
 ## Quickstart
@@ -32,3 +30,20 @@ $results = $pirectus
     ])
     ->find();
 ```
+
+## ItemsQueryBuilder
+
+### fields(array $fields)
+### addFields(array $fields)
+### filter(array $filter)
+### addFilter(array $filter)
+### limit(int $value)
+### offset(int $value)
+### groupBy(array $groupBy)
+### addGroupBy(string $field)
+### aggregate(string $aggregate, string $field)
+### sort(array $sort)
+### addSort(array $sort)
+### search(string $value)
+### meta(string $value)
+### aliases(string $field, string $alias)

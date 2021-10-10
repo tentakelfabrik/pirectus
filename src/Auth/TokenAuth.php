@@ -3,26 +3,26 @@
 namespace Pirectus\Auth;
 
 /**
+ *  Auth for Token in Directus
  *
- *
- *  @author Björn Hase
+ *  @author Björn Hase, Tentakelfabrik
  *  @license http://opensource.org/licenses/MIT The MIT License
- *  @link https://gitea.tentakelfabrik.de/tentakelfabrik/pirectus Gitea Repository
+ *  @link https://gitea.tentakelfabrik.de/tentakelfabrik/pirectus
  *
  */
 
 class TokenAuth
 {
-    /** */
+    /** token for auth */
     private $token = NULL;
 
     /**
      *  setting token
      *
-     *  @param String $token
+     *  @param string $token
      *
      */
-    public function __construct(String $token)
+    public function __construct(string $token)
     {
         $this->token = $token;
     }
@@ -30,7 +30,7 @@ class TokenAuth
     /**
      *  getting token
      *
-     *  @return String
+     *  @return string
      *
      */
     public function getToken()
