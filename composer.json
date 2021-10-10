@@ -1,0 +1,22 @@
+{
+    "name": "tentakelfabrik/pirectus",
+    "version": "0.1.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Björn Hase",
+            "email": "me@tentakelfabrik.de",
+            "homepage": "https://tentakelfabrik.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Pirectus\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
