@@ -1,9 +1,9 @@
 # Pirectus - a small Client for Directus 9
 
 This Version is in a early Stage and only supports get, post, patch for Items. Authentification is only possible with token.
-It uses [https://docs.guzzlephp.org/en/stable/](https://docs.guzzlephp.org/en/stable/) and is inspired by the [https://docs.directus.io/reference/sdk/](https://docs.directus.io/reference/sdk/)
+It uses [https://docs.guzzlephp.org/en/stable/](Guzzle, PHP HTTP client) and is inspired by the [https://docs.directus.io/reference/sdk/](Directus JavaScript SDK)
 
-Pirectus is used in [https://github.com/tentakelfabrik/super-gear-directus](https://github.com/tentakelfabrik/super-gear-directus), a small CMS.
+Pirectus is used in [https://github.com/tentakelfabrik/super-gear-directus](Super Gear Directus), a small CMS.
 
 ## Installation
 
