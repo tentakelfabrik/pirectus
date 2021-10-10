@@ -36,7 +36,7 @@ class Request
      *  @param array  $options
      *
      */
-    public function __construct(atring $url, array $options)
+    public function __construct(string $url, array $options)
     {
         $this->options = $options;
 
@@ -70,7 +70,7 @@ class Request
      *  @return string
      *
      */
-    public function buildParameters(Array $query)
+    public function buildParameters(array $query)
     {
         //
         $parameters = [];
