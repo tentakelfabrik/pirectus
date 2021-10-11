@@ -222,7 +222,7 @@ class ItemsQueryBuilder extends AbstractQueryBuilder
       */
      public function aliases(string $field, string $alias)
      {
-         $this->query['parameters']['alias'][$field] = $alias;
+         $this->query['parameters']['alias'][$alias] = $field;
 
          return $this;
      }
