@@ -69,7 +69,7 @@ abstract class AbstractQueryBuilder
             $results['data'] = $results['data'][0];
         }
 
-        return $result;
+        return $results;
     }
 
     /**
