@@ -44,7 +44,7 @@ class Pirectus
     public function items(string $name)
     {
         $query = [
-            'endpoint' => '/items/'.$name,
+            'endpoint' => 'items/'.$name,
             'parameters' => []
         ];
 
